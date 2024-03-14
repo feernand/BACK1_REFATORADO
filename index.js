@@ -10,6 +10,7 @@ function estraiLinks (texto){
     const capturas = texto.match(regex);
 
     console.log(capturas);
+    console.log("Mensagem para forçar commit");
 }
 
 estraiLinks(textoTeste)
